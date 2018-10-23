@@ -2,11 +2,10 @@
 # out the current state.
 
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-puts "Add #{board[4]} to the game"
 
 def display_board(board)
 
-  puts "   |   |   "
+  puts " #{board[0]}  | #{board[1]}  | #{board[2]}   "
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
